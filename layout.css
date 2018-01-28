@@ -1,0 +1,160 @@
+html, body{
+			font-family: "微軟正黑體";
+	}
+.firstContainer{
+	background-image: url(img/bg_1.jpg);
+	background-size: cover;
+	width: 100%;
+}
+.marginTop{
+	margin-top: 100px;
+}
+.firstContainer p{
+	font-family: 'Permanent Marker','Rock Salt', cursive;
+	font-size: 3em;
+	margin-top: 250px;
+}
+.firstContainer h1{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 6em;
+}
+.contentFirstContainer a {
+	display: inline-block;
+	margin-top: 25px;
+	font-size: 2.5em;
+	color: #333;
+	transition: all 600ms;
+}
+.contentFirstContainer a:hover{
+	color: #355AA8;
+	transform: scale(1.5,1.5);
+}
+.contentFirstContainer a:nth-last-child(n+2){
+	margin-right: 20px;
+}
+.contentContainer{
+	width: 100%;
+}
+.contentContainer h2{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 4em;
+	text-align: center;
+}
+.bold{
+	font-weight: bold;
+}
+.contentAboutMe p{
+	font-size: 1.5em;
+	text-indent: 2em;
+}
+.contentSkills h3{
+	font-size: 2em;
+	font-weight: bold;
+}
+.contentSkills p{
+	font-size: 1.5em;
+	text-indent: 2em;
+}
+.progressContent{
+	width: 100%;
+	margin-top: 30px;
+}
+@media(max-width: 991.98px){
+	.ratingBar{
+		width: 100%;
+		display: inline-block;
+	}
+	.logo{
+		width: 150px;
+		height: 85px;
+		margin: 10px 0;
+	}
+	.workExperienceContent{
+		padding: 5px 0;
+	}
+}
+@media (min-width:992px) {
+	.ratingBar{
+		width: 45%;
+		margin:0 15px;
+		display: inline-block;
+	}
+	.workExperience{
+		width: 100%;
+		margin-top: 50px;
+	}
+	.logo{
+		width: 180px;
+		height: 180px;
+		float: left;
+	}
+	.clearBoth{
+		clear: both;
+	}
+}
+.ratingBar label{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.ratingCount{
+	font-size: 1.5em;
+	float: right;
+}
+.school{
+	margin-top: 30px;
+}
+.myEducationContent{
+	padding: 5px 0;
+}
+.address ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.icon{
+	width: 50px;
+	height: 100px;
+	font-size: 4em;
+	float: left;
+	margin-right: 50px;
+	padding-top: 10px;
+	padding: 0 15px;
+}
+.icon .fa{
+	transform: rotate(0deg);
+	transition: transform 600ms;
+}
+.icon .fa:hover{
+	transform: rotate(360deg);
+	cursor: pointer;
+}
+.address ul li:nth-child(1) .icon{
+	color: #00CCCC;
+}
+.address ul li:nth-child(2) .icon{
+	color: #FF5E3E;
+}
+.address ul li:nth-child(3) .icon{
+	color: #2C8182;
+}
+.address ul li:nth-child(4) .icon{
+	color: #FCCC3A;
+}
+.address ul li, .title{
+	overflow: hidden;
+	text-align: match-parent;
+}
+.contactMe form{
+	margin-left: 100px;
+}
+.contentExperience h3, .contentExperience h4, .contentEducation h3, .contentEducation h4, .contentContactMe h3, .contentBlog h3{
+	font-size: 2em;
+	font-weight: bold;
+}
+.contentExperience p, .contentExperience span, .contentEducation p, .contentEducation span, .contentContactMe p, .contentContactMe a{
+	font-size: 1.5em;
+}
+.contentContactMe a{
+	color: #333;
+	text-decoration: none;
+}
