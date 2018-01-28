@@ -7,7 +7,7 @@ html, body{
 	width: 100%;
 }
 .marginTop{
-	margin-top: 100px;
+	margin-top: 80px;
 }
 .firstContainer p{
 	font-family: 'Permanent Marker','Rock Salt', cursive;
@@ -43,18 +43,6 @@ html, body{
 .bold{
 	font-weight: bold;
 }
-.contentAboutMe p{
-	font-size: 1.5em;
-	text-indent: 2em;
-}
-.contentSkills h3{
-	font-size: 2em;
-	font-weight: bold;
-}
-.contentSkills p{
-	font-size: 1.5em;
-	text-indent: 2em;
-}
 .progressContent{
 	width: 100%;
 	margin-top: 30px;
@@ -71,6 +59,13 @@ html, body{
 	}
 	.workExperienceContent{
 		padding: 5px 0;
+	}
+	.contentSkills h3, .contentExperience h3, .contentExperience h4, .contentEducation h3, .contentEducation h4, .contentContactMe h3, .contentBlog h3{
+	font-size: 1.5em;
+	font-weight: bold;
+	}
+	.contentAboutMe p, .contentSkills p, .contentExperience p, .contentExperience span, .contentEducation p, .contentEducation span, .contentContactMe p, .contentContactMe a{
+	font-size: 1em;
 	}
 }
 @media (min-width:992px) {
@@ -90,6 +85,13 @@ html, body{
 	}
 	.clearBoth{
 		clear: both;
+	}
+	.contentSkills h3, .contentExperience h3, .contentExperience h4, .contentEducation h3, .contentEducation h4, .contentContactMe h3, .contentBlog h3{
+	font-size: 2em;
+	font-weight: bold;
+	}
+	.contentAboutMe p, .contentSkills p, .contentExperience p, .contentExperience span, .contentEducation p, .contentEducation span, .contentContactMe p, .contentContactMe a{
+	font-size: 1.5em;
 	}
 }
 .ratingBar label{
@@ -146,13 +148,6 @@ html, body{
 }
 .contactMe form{
 	margin-left: 100px;
-}
-.contentExperience h3, .contentExperience h4, .contentEducation h3, .contentEducation h4, .contentContactMe h3, .contentBlog h3{
-	font-size: 2em;
-	font-weight: bold;
-}
-.contentExperience p, .contentExperience span, .contentEducation p, .contentEducation span, .contentContactMe p, .contentContactMe a{
-	font-size: 1.5em;
 }
 .contentContactMe a{
 	color: #333;
